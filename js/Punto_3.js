@@ -7,6 +7,5 @@ function tiendaDulces(){
 
         console.log('El precio de la barra por no ser del dia es:' + " " + barraDulce);
         console.log('El Descuento de la barra es de:' + " " + barraDescuento);   
-        console.log('El Precio total de la venta es:' + " " + (ventaTotal));
-        
+        console.log('El Precio total de la venta es:' + " " + ventaTotal);        
 }
