@@ -37,8 +37,33 @@
         <p>Ingrese un numero<input type="number" name="numero1" id="num1"></p>
         <p>Ingrese un numero<input type="number" name="numero2" id="num2"></p>
         <p>Ingrese un numero<input type="number" name="numero3" id="num3"></p>
-        <button id="CalcularImc" onclick="calcularSuma()">Calcular</button><hr>
+        <button id="CalcularSuma" onclick="calcularSuma()">Calcular</button><hr>
         <script type="text/javascript" src="\js\Punto_4.js"></script>
+    </div>
+
+    <div class="Punto_5">
+        <a><b>Quinto Ejercicio</a></b>
+        <p>Escribe una palabra<input type="text" name="ingrese_datos" id="fraseUser"></p>
+        <button id="btn_validar" onclick="texto(document.getElementById('fraseUser').value)">
+        Calcular</button><hr>
+        <p id ="PalabraCompleta"></p>
+        <script type="text/javascript" src="\js\Punto_5.js"></script>
+    </div>
+
+    <div class="Punto_6">
+        <a><b>Sexto Ejercicio</a></b>
+        <p>Ingrese una cantidad de numeros separados por coma(;)<input type="number" 
+            name="numero1" id="numeros"></p>
+        <button id="CalcularMedia" onclick="calcularMedia()">Calcular</button><hr>
+        <script type="text/javascript" src="\js\Punto_6.js"></script>
+    </div>
+
+    <div class="Punto_7">
+        <a><b>Septimo Ejercicio</a></b>
+        <p>Ingrese una fruta<input type="text" name="nombreFruta" id="fruta"></p>
+        <p>Ingrese cuantos Kgs va a llevar<input type="number" name="nombreKgs" id="Kgs"></p>
+        <button id="CalcularFrutas" onclick="procesoFrutas()">Calcular</button><hr>
+        <script type="text/javascript" src="\js\Punto_7.js"></script>
     </div>
 
 </div>
