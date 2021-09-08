@@ -1,4 +1,6 @@
 
+
+    
     function calcularMedia() {
         var arregloNumeros = [];
         var cadenaNumeros = document.getElementById("numeros").value;
@@ -10,10 +12,11 @@
         for (var i = 0; i < arregloNumeros.length; i++) {
             var unidadNumero = parseInt(arregloNumeros[i], 10);
             arregloNumerico.push(unidadNumero);
+            sumaNumeros = sumaNumeros + arregloNumerico[i];
         }
 
         for (var i = 0; i < arregloNumerico.length; i++) {
-            sumaNumeros = sumaNumeros + arregloNumerico[i];
+            
         }
 
         
